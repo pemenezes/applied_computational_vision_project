@@ -15,3 +15,17 @@
 # clara ou tem um bom contraste. Um histograma concentrado em níveis baixos indica uma imagem 
 # escura, enquanto um histograma concentrado em níveis altos indica uma imagem clara. 
 # Um histograma bem distribuído sugere que a imagem tem um bom contraste.
+
+
+#3. Por que aplicar morfologia antes de detectar contornos?
+
+#R : As operações morfológicas (erosão, dilatação, abertura, fechamento) atuam sobre a forma e estrutura dos 
+# objetos binários ou em escala de cinza. Aplicá-las antes da detecção de contornos traz benefícios críticos, como
+# fechamento de lacunas e remoção de ruído, entre outros
+
+
+#4. Em qual cenário real esse sistema poderia ser aplicado?
+
+#R : Isso pode ser utilizado em uma variedade de cenários reais, como na saúde com Segmentação de estruturas 
+#em imagens médicas (raio-X, histologia) — delimitar tumores, células ou órgãos, ou no setor agro
+# Análise de lavouras — identificar manchas em folhas, estimar área de plantio ou detectar pragas por imagens de drone
