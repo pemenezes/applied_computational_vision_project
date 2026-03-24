@@ -7,7 +7,6 @@
 ## 👤 Autor
 
 **Pedro Henrique Menezes Mariano Silva**  
-RM: 97432
 
 ---
 
